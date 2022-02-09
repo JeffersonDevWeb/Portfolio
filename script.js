@@ -14,3 +14,5 @@ import cascate from "./modulos/cascate.js";
 cascate()
 import initEasyScroll from "./modulos/easyScroll.js";
 initEasyScroll()
+import form from "./modulos/form.js"
+form()
