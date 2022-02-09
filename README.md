@@ -1,2 +1,2 @@
-# Portfolio
- Esse é meu portfolio contém alguns dos projetos que já criei ou ajudei a ser criado
+# Meu portfolio
+Esse é meu Portfólio nele você vai encontrar todos os meus projetoss, e conhecer um pouco sobre minhas habilidades em cada área
