@@ -1,0 +1,152 @@
+/* Slider proj*/
+
+.slick-slider
+{
+    position: relative;
+
+    display: block;
+    box-sizing: border-box;
+
+    -webkit-user-select: none;
+       -moz-user-select: none;
+        -ms-user-select: none;
+            user-select: none;
+
+    -webkit-touch-callout: none;
+    -khtml-user-select: none;
+    -ms-touch-action: pan-y;
+        touch-action: pan-y;
+    -webkit-tap-highlight-color: transparent;
+    z-index: 3000;
+}
+
+.carrosel  .slick-list
+{
+    position: relative;
+
+    display: block;
+    overflow: hidden;
+
+    margin: 0;
+    padding: 0;
+    z-index: 3000;
+}
+.carrosel .slick-list:focus
+{
+    outline: none;
+    z-index: 3000;
+}
+.carrosel .slick-list.dragging
+{
+    cursor: pointer;
+    cursor: hand;
+    z-index: 3000;
+}
+
+.carrosel .slick-slider .slick-track,
+.carrosel .slick-slider .slick-list
+{
+    -webkit-transform: translate3d(0, 0, 0);
+       -moz-transform: translate3d(0, 0, 0);
+        -ms-transform: translate3d(0, 0, 0);
+         -o-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0);
+            z-index: 3000;
+}
+
+.carrosel .slick-track
+{
+    position: relative;
+    top: 0;
+    left: 0;
+    height: 350px;
+
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+
+    z-index: 3000;
+}
+.carrosel .slick-track:before,
+.carrosel .slick-track:after
+{
+    display: table;
+
+    content: '';
+
+    z-index: 3000;
+}
+.carrosel .slick-track:after
+{
+    clear: both;
+}
+.carrosel .slick-loading .slick-track
+{
+    visibility: hidden;
+
+    z-index: 3000;
+}
+
+.slick-slide
+{
+    display: none;
+    float: left;
+    margin-top: 20px;
+
+    height: 300px;
+
+    min-height: 1px;
+
+    z-index: 3000;
+}
+.carrosel [dir='rtl'] .slick-slide
+{
+    float: right;
+
+    z-index: 3000;
+}
+.carrosel .slick-slide img
+{
+    display: block;
+
+    z-index: 3000;
+}
+.carrosel .slick-slide.slick-loading img
+{
+    display: none;
+
+    z-index: 3000;
+}
+.carrosel .slick-slide.dragging img
+{
+    pointer-events: none;
+
+    z-index: 3000;
+}
+.slick-initialized .slick-slide
+{
+    display: block;
+
+    z-index: 3000;
+}
+.carrosel .slick-loading .slick-slide
+{
+    visibility: hidden;
+
+    z-index: 3000;
+}
+.carrosel .slick-vertical .slick-slide
+{
+    display: block;
+
+    height: auto;
+
+    border: 1px solid transparent;
+
+    z-index: 3000;
+}
+.carrosel .slick-arrow.slick-hidden {
+    display: none;
+    z-index: 3000;
+}
+

@@ -1,0 +1,379 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <title>D`Alva Technologies</title>
+
+    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta charset="utf-8" />
+
+    <meta name="description" content="Desenvolvedor Web e desi" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="keywords" content="webdesigner, desenvolvedor web, criar site, web designer, designer, criar loja virtual, programador, desenvolvedor front-end, front end, back end, design">
+
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    />
+
+    <script src="modulos/jquery.min.js"></script>
+    <script type="module" src="script.js" async defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.8.1/lottie.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script
+      type="text/javascript"
+      src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
+    ></script>
+
+    <script>
+      document.documentElement.className = "js";
+    </script>
+  </head>
+
+  <body>
+    <div class="grid-container">
+      <div id="hex-grid">
+        <div class="light"></div>
+        <div class="grid"></div>
+      </div>
+
+      <nav class="menu" data-anime="menu">
+        <button data-menu="menu" aria-expanded="false" aria-controls="menu">
+          Menu
+        </button>
+        <div id="lottie" class="logo"></div>
+
+        <ul data-menu="list" id="menu">
+          <li><a href="#sobre">Sobre</a></li>
+
+          <li data-dropdown>
+            <a href="#projetos">Projeto</a>
+            <ul class="dropdown-menu">
+              <li><a href="todos.html">todos</a></li>
+              <li><a href="#proj">Top five</a></li>
+            </ul>
+          </li>
+
+          <li><a href="#hab">Habilidade</a></li>
+          <li><a href="#cont">Contato➣</a></li>
+        </ul>
+      </nav>
+
+      <section  class="grid-section sobre js-scroll"  data-anime="scroll"  id="sobre">
+        <h1 class="tituloSobre">Sobre</h1>
+
+        <img src="img/imagem4.jpg" class="self" alt="eu / Me" />
+
+        <div class="desc" data-tab="content">
+          <section data-anime="show-right">
+            <h2 class="sub">Quem sou eu</h2>
+            <p>
+              Amante da tecnologia desde cedo e artista visual por hobby,
+              Análise e Desenvolvimento de Sistemas foi o melhor caminho para
+              unir minhas paixões em uma forma criativa e rentável.
+            </p>
+          </section>
+        </div>
+      </section>
+
+      <section class="grid-section proj projetos" data-anime="scroll" id="proj">
+        <h1 class="titulos tituloProj">Projetos</h1>
+        <div class="text">
+          <p class="fly flyResponsive">
+            Abaixo alguns projetos que desenvolvi ou auxiliei a construção, com
+            informações na descrição e link direto na imagem!
+          </p>
+        </div>
+
+        <div class="containerProj">
+          <div class="carrossel">
+            <img
+              data-name='"Animais Fantásticos"'
+              data-desc="Projeto desenvolvido durante o curso na Origamid."
+              src="img/Animais Fantásticos.png"
+              alt="Site Animais fantásticos"
+              class="imgCar 1"
+            />
+            <img
+              data-name="não definido 1"
+              data-desc="Esse foi um projeto em andamento"
+              src="img/imagem4.jpg"
+              alt=""
+              class="imgCar 2"
+            />
+            <img
+              data-name="não definido 2"
+              data-desc="Esse foi um projeto em andamento 2"
+              src="img/undraw_building_blocks_re_rwls.svg"
+              alt=""
+              class="imgCar 3"
+            />
+            <img
+              data-name="não definido 3"
+              data-desc="Esse foi um projeto em andamento 3"
+              src="img/undraw_knowledge_re_leit.svg"
+              alt=""
+              class="imgCar 4"
+            />
+            <img
+              data-name="não definido 4"
+              data-desc="Esse foi um projeto em andamento 4"
+              src="img/undraw_snowman_re_guxt.svg"
+              alt=""
+              class="imgCar 5"
+            />
+          </div>
+          <h4 class="projName"></h4>
+          <div class="projDesc"></div>
+          <div class="prev">
+            <img
+              src="https://img.icons8.com/nolan/96/double-left.png"
+              id="prev"
+              alt="anterior"
+            />
+          </div>
+          <div class="next">
+            <img
+              src="https://img.icons8.com/nolan/96/double-right.png"
+              id="next"
+              class="next1"
+              alt="próximo"
+            />
+          </div>
+        </div>
+      </section>
+
+      <section class="grid-section hab" data-anime="scroll" id="hab">
+        <h1 class="titulos titulohab">Habilidades</h1>
+
+        <div class="cube cubeFront">
+          <div class="top"></div>
+          <div>
+            <span style="--i: 0">
+              <h2>
+                <img
+                  src="https://img.icons8.com/nolan/96/source-code.png"
+                  alt="Front-end"
+                />
+              </h2>
+              <h2>
+                <img
+                  src="https://img.icons8.com/nolan/96/source-code.png"
+                  alt="Front-end"
+                />
+              </h2>
+            </span>
+            <span style="--i: 1">
+              <h2>
+                <img
+                  src="https://img.icons8.com/color/96/000000/html-5--v1.png"
+                  alt="HTML"
+                />
+              </h2>
+              <h2>
+                <img
+                  src="https://img.icons8.com/color/96/000000/html-5--v1.png"
+                  alt="HTML"
+                />
+              </h2>
+            </span>
+            <span style="--i: 2">
+              <h2>
+                <img
+                  src="https://img.icons8.com/color/96/000000/css3.png"
+                  alt="CSS"
+                />
+              </h2>
+              <h2>
+                <img
+                  src="https://img.icons8.com/color/96/000000/css3.png"
+                  alt="CSS"
+                />
+              </h2>
+            </span>
+            <span style="--i: 3">
+              <h2>
+                <img
+                  src="https://img.icons8.com/color/48/000000/javascript--v1.png"
+                  alt="javascript"
+                />
+              </h2>
+              <h2>
+                <img
+                  src="https://img.icons8.com/color/48/000000/javascript--v1.png"
+                  alt="javascript"
+                />
+              </h2>
+            </span>
+          </div>
+        </div>
+
+        <div class="cube cubeBack">
+          <div class="top"></div>
+          <div>
+            <span style="--i: 0">
+              <h2>
+                <img
+                  src="https://img.icons8.com/color/96/000000/backend-development.png"
+                  alt="back-end"
+                />
+              </h2>
+              <h2>
+                <img
+                  src="https://img.icons8.com/color/96/000000/backend-development.png"
+                  alt="back-end"
+                />
+              </h2>
+            </span>
+            <span style="--i: 1">
+              <h1 class="back">BACK END</h1>
+              <h1 class="back">BACK END</h1>
+            </span>
+            <span style="--i: 2">
+              <h2>
+                <img
+                  src="https://img.icons8.com/fluency/96/000000/node-js.png"
+                  alt="Node.Js"
+                />
+              </h2>
+              <h2>
+                <img
+                  src="https://img.icons8.com/fluency/96/000000/node-js.png"
+                  alt="Node.Js"
+                />
+              </h2>
+            </span>
+            <span style="--i: 3">
+              <h1 class="express" class="express">Express</h1>
+              <h1 class="express" class="express">Express</h1>
+            </span>
+          </div>
+        </div>
+
+        <div class="cube cubeDesign">
+          <div class="top"></div>
+          <div>
+            <span style="--i: 0">
+              <h2 class="design">
+                <img src="img/icons8-graphic-design-64.png" alt="Web design" />
+              </h2>
+              <h2 class="design">
+                <img src="img/icons8-graphic-design-64.png" alt="Web design" />
+              </h2>
+            </span>
+            <span style="--i: 1">
+              <h1 class="design">UI<br />UX</h1>
+              <h1 class="design">UI<br />UX</h1>
+            </span>
+            <span style="--i: 2">
+              <h2 class="design">
+                <img
+                  src="https://img.icons8.com/color/48/000000/adobe-xd--v1.png"
+                  alt="adobe XD"
+                />
+              </h2>
+              <h2 class="design">
+                <img
+                  src="https://img.icons8.com/color/48/000000/adobe-xd--v1.png"
+                  alt="adobe XD"
+                />
+              </h2>
+            </span>
+            <span style="--i: 3">
+              <h2 class="design">
+                <img
+                  src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/000000/external-sketch-a-vector-design-toolkit-graphics-editor-logo-shadow-tal-revivo.png"
+                  alt="sketch"
+                />
+              </h2>
+              <h2 class="design">
+                <img
+                  src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/96/000000/external-sketch-a-vector-design-toolkit-graphics-editor-logo-shadow-tal-revivo.png"
+                  alt="sketch"
+                />
+              </h2>
+            </span>
+          </div>
+        </div>
+
+        <div class="neon">
+          <h2 class="front">FRONT<br />END</h2>
+          <h2 class="back">BACK<br />END</h2>
+          <h2 class="design">DESIGN<br />UI/UX</h2>
+        </div>
+
+        <div class="descHab">
+          <h2 class="Front desctext">
+            Vasto conhecimento em front-end e na utilização dos frameworks:
+            Angular, React e Vue.
+          </h2>
+          <h2 class="Back desctext">
+            Entusiasta de Back-end em formação com conhecimento em Node, Express
+            e Banco de dados em MySQL e JSON.
+          </h2>
+          <h2 class="Design desctext">
+            Conhecimentos técnicos em Adobe XD, Sketch e um bom senso estético
+            garantem o sucesso no design dos jobs.
+          </h2>
+        </div>
+      </section>
+
+      <section class="grid-section cont" data-anime="scroll" id="cont">
+        <h2 class="contDesc">
+          Também disponível para freelances.<br/><br/>
+          <span class="magic" data-text="Vamos tornar sua visão realidade!"
+            >Vamos tornar sua visão realidade!</span
+          >
+        </h2>
+
+        <h1 class="titleCont">Contato</h1>
+
+        <form class="form__group field">
+          <input
+            type="input"
+            class="form__field name"
+            name="name"
+            id="name"
+            autocomplete="off"
+            autocapitalize="true"
+            required
+          />
+          <label for="name" class="form__label name">Nome</label>
+
+          <input
+            type="email"
+            class="form__field email"
+            name="email"
+            id="email"
+            autocomplete="off"
+            required
+          />
+          <label for="email" class="form__label email">Email</label>
+
+          <textarea
+            name="message"
+            id="message"
+            class="form__msg msg msgTablet"
+            cols="50"
+            rows="20"
+            required
+          ></textarea>
+          <label for="message" class="label__msg message msgTablet"
+            >Mensagem</label
+          >
+        </form>
+      </section>
+
+      <footer class="final">
+        <div class="social">
+          <a href="#" class="social-media fab fa-github" alt="Github"></a>
+          <a href="#" class="social-media fab fa-facebook-f" alt="Facebook"></a>
+          <a href="#" class="social-media fab fa-instagram" alt="Instagram"></a>
+          <a href="#" class="social-media fab fa-linkedin" alt="Linkedin"></a>
+        </div>
+        <img src="img/D'AlvaLogo.png" class="dalva" alt="D'Alva"/>
+      </footer>
+    </div>
+  </body>
+</html>
