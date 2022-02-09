@@ -12,6 +12,6 @@ export default function form(){
         var email = Email.value
         var Mensagem = mensagem.value 
 
-        enviar.href = `mailto:dalvatechnologies@gmail.com?subject=${nome}, ${email}&body=${Mensagem}`
+        enviar.href = `mailto:dalvatechnologies@gmail.com?subject=${nome},%20${email}&body=${Mensagem}`
     }
 }

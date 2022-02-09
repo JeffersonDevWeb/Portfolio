@@ -212,6 +212,9 @@ body{
 .self{
     grid-column: 4;
     height: 31.25rem;
+    transform: rotateY(-180deg);
+    transform-style: preserve-3d;
+    filter: drop-shadow(-1.875rem 10px 0.25rem #131212);
 
 }
 /*----------------------End-Sobre----------------------*/
@@ -267,15 +270,21 @@ body{
     z-index: 100000;
 }
 
-.imgCar{
+.car{
     border: #335bf3 solid 0.0625rem;
     filter: drop-shadow(0px 0px 0.625rem #335bf3);
 
     transform: scale(0.6);
     border-radius: 100%;
-    width: 18.75rem;
+    width: 300px;
 }
 
+.imgCar{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+}
 
 .slick-center{
     transform: scale(1);
