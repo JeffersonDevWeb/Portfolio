@@ -9,12 +9,12 @@
 
 @font-face {
     font-family: subtitle;
-    src: url('/portfolio/fontes/Request.otf');
+    src: url('/fontes/Request.otf');
 }
 
 @font-face {
     font-family: texto;
-    src: url('/portfolio/fontes/SIMPLIFICA-Typeface.ttf');
+    src: url('/fontes/SIMPLIFICA-Typeface.ttf');
 }
 
 ul{
@@ -75,7 +75,7 @@ body{
     position: absolute;
     top: 0;
     left: 0;
-    background: url('/portfolio/img/grid.svg') repeat;
+    background: url('/img/grid.svg') repeat;
     overflow: hidden;
     width: 100%;
     height: 3000px;
@@ -212,6 +212,9 @@ body{
 .self{
     grid-column: 4;
     height: 31.25rem;
+    transform: rotateY(-180deg);
+    transform-style: preserve-3d;
+    filter: drop-shadow(-1.875rem 10px 0.25rem #131212);
 
 }
 /*----------------------End-Sobre----------------------*/
@@ -267,15 +270,21 @@ body{
     z-index: 100000;
 }
 
-.imgCar{
+.car{
     border: #335bf3 solid 0.0625rem;
     filter: drop-shadow(0px 0px 0.625rem #335bf3);
 
     transform: scale(0.6);
     border-radius: 100%;
-    width: 18.75rem;
+    width: 300px;
 }
 
+.imgCar{
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    object-fit: cover;
+}
 
 .slick-center{
     transform: scale(1);
@@ -779,6 +788,32 @@ body{
     top: 6.875rem;
     font-weight: 900;
     font-size: 1.875rem;
+}
+
+/*----------------------Enviar----------------------*/
+.enviar{
+    position: absolute;
+    font-family: texto, Arial, Helvetica, sans-serif;
+    color: white;
+    letter-spacing: 2px;
+    font-weight: 700;
+    font-size: larger;
+    top: 440px;
+    left: 500px;
+    width: 150px;
+    height: 50px;
+    background-color:#455fc5;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,.1), rgba(255,255,255,.4) 49%, rgba(255,255,255,0) 50%, 
+    rgba(255,255,255,.4));
+}
+
+.enviar:hover{
+    background-color: rgba(69, 95, 197, 0.8);
+}
+
+#enviar{
+    text-decoration: none;
+    color: white;
 }
 
 /*----------------------footer----------------------*/
