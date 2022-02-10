@@ -138,10 +138,17 @@
         max-width: 80%;
     }
 
-    .imgCar{
+    .car{
         width: 140px;
         height: 130px;
         margin-left: 9px;
+    }
+
+    .imgCar{
+        width: 140px;
+        height: 130px;
+        border-radius: 100%;
+        object-fit: cover;
     }
 
     .projName, .projDesc{
