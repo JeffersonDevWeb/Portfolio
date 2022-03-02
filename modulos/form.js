@@ -1,17 +1,17 @@
-export default function form(){
-    const btn = document.querySelector('.enviar')
-    const enviar = document.querySelector('#enviar')
-    let Nome = document.querySelector('#name')
-    let Email = document.querySelector('#email')
-    let mensagem = document.querySelector('#message')
+export default function form() {
+  const btn = document.querySelector('.enviar');
+  const enviar = document.querySelector('#enviar');
+  const Nome = document.querySelector('#name');
+  const Email = document.querySelector('#email');
+  const mensagem = document.querySelector('#message');
 
-    btn.addEventListener('click', EnviaMsg)
-    
-    function EnviaMsg(){
-        var nome = Nome.value
-        var email = Email.value
-        var Mensagem = mensagem.value 
+  function EnviaMsg() {
+    const nome = Nome.value;
+    const email = Email.value;
+    const Mensagem = mensagem.value;
 
-        enviar.href = `mailto:dalvatechnologies@gmail.com?subject=${nome},%20${email}&body=${Mensagem}`
-    }
+    enviar.href = `mailto:dalvatechnologies@gmail.com?subject=${nome},%20${email}&body=${Mensagem}`;
+  }
+
+  btn.addEventListener('click', EnviaMsg);
 }
