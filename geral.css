@@ -219,6 +219,7 @@ body {
 .self {
   grid-column: 4;
   height: 31.25rem;
+  width: 100%;
   transform: rotateY(-180deg);
   transform-style: preserve-3d;
   filter: drop-shadow(-1.875rem 10px 0.25rem #131212);
@@ -319,24 +320,22 @@ body {
   text-align: center;
 }
 
-.next {
-  position: absolute;
-  top: 66.875rem;
-  left: 71.875rem;
+.next > img, .prev > img{
+  width: 100px;
+  height: 100px;
 }
 
-.next > img {
-  width: 6.25rem;
+.next {
+  position: absolute;
+  left: 71.875rem;
+  top: 66.875rem;
 }
+
 
 .prev {
   position: absolute;
-  top: 66.875rem;
   left: 16.875rem;
-}
-
-.prev > img {
-  width: 6.25rem;
+  top: 66.875rem;
 }
 /*----------------------End-Projetos----------------------*/
 
@@ -513,6 +512,11 @@ body {
   filter: blur(0.125rem);
 }
 
+.imgs-cube{
+  width: 6.25rem;
+  height: 6.25rem;
+}
+
 /*texto Neon geral*/
 .neon {
   position: relative;
@@ -663,7 +667,7 @@ body {
   width: 21.875rem;
   border: none;
   font-size: 1.0625rem;
-  border-bottom: 0.125rem solid silver;
+  border-bottom: 0.125rem solid rgb(201, 201, 201);
   background-color: #1f1f1f;
   color: white;
   padding-top: 0.9375rem;
@@ -690,7 +694,7 @@ body {
   bottom: 0.0625rem;
   left: 0;
   font-size: 1.3rem;
-  color: grey;
+  color: rgb(201, 201, 201);
   pointer-events: none;
   transition: ease 0.5 ease;
 }
