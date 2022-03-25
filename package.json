@@ -1,0 +1,29 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "Esse é meu Portfólio nele você vai encontrar todos os meus projetoss, e conhecer um pouco sobre minhas habilidades em cada área",
+  "main": "script.js",
+  "scripts": {
+    "build": "webpack --mode production ./script.js -o ./",
+    "dev": "webpack --mode development ./script.js -o ./ -w"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JeffersonDevWeb/Portfolio.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JeffersonDevWeb/Portfolio/issues"
+  },
+  "homepage": "https://github.com/JeffersonDevWeb/Portfolio#readme",
+  "devDependencies": {
+    "eslint": "^8.11.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.25.4",
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  },
+  "dependencies": {
+  }
+}
