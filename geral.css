@@ -98,7 +98,6 @@ body {
   flex-wrap: wrap;
   justify-content: flex-end;
   padding: 10px;
-  z-index: 200;
 }
 .menu li a {
   display: block;
@@ -339,7 +338,7 @@ body {
     color: rgba(0, 0, 0, 0.1);
     filter: blur(0.125rem);
   }
-  
+
 .top {
   position: absolute;
   top: 0;
